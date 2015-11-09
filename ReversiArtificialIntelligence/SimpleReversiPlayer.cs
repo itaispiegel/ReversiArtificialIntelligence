@@ -1,4 +1,4 @@
-﻿namespace ReversiArtificialIntelligence
+namespace ReversiArtificialIntelligence
 {
     /// <summary>
     /// This player calculates the move that guarentees the most allied discs on the next turn

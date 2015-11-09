@@ -58,6 +58,8 @@ function load_boards(boards, i) {
   draw_board(boards[i]);
   setTimeout(function() {load_boards(boards, i+1)},250)
   $("#turns").text(i + "/" + (boards.length - 2))
+  draw_board(boards[i]);
+  setTimeout(function() {load_boards(boards, i+1)},1000)
 }
 
 $(document).ready(function(){

@@ -1,4 +1,4 @@
-﻿namespace ReversiArtificialIntelligence
+namespace ReversiArtificialIntelligence
 {
     /// <summary>
     /// Represnts a disc on the game board
